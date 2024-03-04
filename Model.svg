@@ -1,0 +1,107 @@
+<svg id="graph" class="unselectable" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="302.29 -305.212 1378.31 775.301" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs id="graphics">
+            <marker id="arrowhead" viewBox="0 0 10 10" refX="0" refY="5" markerUnits="strokeWidth" markerWidth="4" markerHeight="3" orient="auto" fill="#fcc">
+                <path d="M 0 0 L 10 5 L 0 10 z"/>
+            </marker>
+            <style type="text/css">
+                .label {
+                    font-size:          8pt;
+                    font-family:        "Open Sans", "Verdana", "Helvetica Neue", sans-serif;
+                    font-weight:        normal;
+                    text-anchor:        left;
+                    dominant-baseline:  middle;
+                    fill:               #000;
+                    pointer-events:     none;
+                }
+                .edge {
+                    pointer-events:     none;
+                }
+                .anchor {
+                    font-style:         italic;
+                    font-weight:        bold;
+                    stroke:             none;
+                    fill:               #c80514;
+                    pointer-events:     none;
+                }
+                .role {
+                    font-style:         italic;
+                    stroke:             none;
+                    fill:               #000;
+                    pointer-events:     none;
+                }
+                .route {
+                    fill:               none;
+                    stroke:             rgba(42, 0, 0, 0.07);
+                    stroke-width:       32;
+                    stroke-linecap:     round;
+                    stroke-linejoin:    round;
+                }
+                .routeSelected {
+                    fill:               none;
+                    stroke:             rgba(242, 101, 101, 0.2);
+                    stroke-width:       42;
+                    stroke-linecap:     round;
+                    stroke-linejoin:    round;
+                }
+                .routeText {
+                    font-family:        "Impact", "Haettenschweiler", "Franklin Gothic Bold", "Charcoal", "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
+                    font-size:          20pt;
+                    font-weight:        normal;
+                    fill:               white;
+                    dominant-baseline:  middle;
+                    pointer-events:     none;
+                }
+                .bad {
+                    fill:               #e00;
+                }
+                .end {
+                    text-anchor:        end;
+                }
+            </style>
+            <g id="knot" style="fill:#fff; stroke:#f88; stroke-width:2px;">
+                <rect width="20" height="20" rx="5" ry="5" transform="translate(-10, -10)"/>
+            </g>
+            <g id="anchor" style="fill:#b55;">
+                <rect width="20" height="20" transform="translate(-10, -10)"/>
+            </g>
+            <g id="anchor_imploded" style="fill:#633;">
+                <path d="M 0 0 Q 12 4 24 0 Q 20 12 24 24 Q 12 20 0 24 Q 4 12 0 0" transform="translate(-12, -12)"/>
+            </g>
+            <g id="tie" style="fill:#a8a8a8;">
+                <rect width="20" height="20" transform="rotate(45) translate(-10, -10)"/>
+            </g>
+            <g id="tie_historized">
+                <rect width="22" height="22" transform="rotate(45) translate(-11, -11)" style="fill:#fff; stroke:#a8a8a8; stroke-width:2px;"/>
+                <rect width="14" height="14" transform="rotate(45) translate(-7, -7)" style="fill:#a8a8a8;"/>
+            </g>
+            <g id="attribute" style="fill:#fff; stroke:#f88; stroke-width:2px;">
+                <circle r="10"/>
+            </g>
+            <g id="attribute_historized" style="fill:#fff; stroke:#f88; stroke-width:2px;">
+                <circle r="12"/>
+                <circle r="7"/>
+            </g>
+            <g id="highlight" style="stroke:#ede5e5; stroke-width:10px; fill:#fff;">
+                <circle r="30"/>
+            </g>
+            <g id="selection" style="fill:#ede5e5;">
+                <circle r="30"/>
+                <circle r="30" style="stroke:#000; stroke-width:1px;"/>
+            </g>
+            <g id="fixation" style="fill:#000;">
+                <circle r="1.5"/>
+            </g>
+            <g id="bubble" style="fill:#f9f8f7; stroke:none;">
+                <circle r="8"/>
+            </g>
+            <g id="one" style="stroke:#544; stroke-width:1px;">
+                <line x1="0" y1="-3" x2="0" y2="3"/>
+            </g>
+            <g id="many" style="stroke:#544; stroke-width:1px;">
+                <line x1="-3" y1="-3" x2="3" y2="-3"/>
+                <line x1="-3" y1="0" x2="3" y2="0"/>
+                <line x1="-3" y1="3" x2="3" y2="3"/>
+            </g>
+        </defs>
+        <!-- layers are appended here -->
+    <g id="keys"/><g id="edges" style="stroke: rgb(0, 0, 0); stroke-width: 1px; fill: none;"><path class="edge" d="M 753.92 -5.94 Q 758.8199999999999 33.65 763.72 73.24"/><path class="edge" d="M 801.96 1.53 Q 782.84 37.385 763.72 73.24"/><path class="edge" d="M 709.05 13.7 Q 736.385 43.47 763.72 73.24"/><path class="edge" d="M 737.62 160.58 Q 750.6700000000001 116.91 763.72 73.24"/><path class="edge" d="M 614.77 144.55 Q 689.245 108.89500000000001 763.72 73.24"/><path class="edge" d="M 614.77 144.55 Q 560.7049999999999 126.82000000000001 506.64 109.09"/><path class="edge" d="M 631.18 33.81 Q 697.45 53.525 763.72 73.24"/><path class="edge" d="M 631.18 33.81 Q 604.515 13.775000000000002 577.85 -6.26"/><path class="edge" d="M 803.98 133.89 Q 783.85 103.565 763.72 73.24"/><path class="edge" d="M 1012.91 -0.24 Q 1037.6399999999999 -26.929999999999996 1062.37 -53.62"/><path class="edge" d="M 1133.63 -119.84 Q 1098 -86.73 1062.37 -53.62"/><path class="edge" d="M 989.33 -105.15 Q 1025.85 -79.385 1062.37 -53.62"/><path class="edge" d="M 971.91 -76.31 Q 1017.1399999999999 -64.965 1062.37 -53.62"/><path class="edge" d="M 1016.06 -142.18 Q 1039.215 -97.9 1062.37 -53.62"/><path class="edge" d="M 1214.21 -90.7 Q 1138.29 -72.16 1062.37 -53.62"/><path class="edge" d="M 1214.21 -90.7 Q 1268.28 -86.42500000000001 1322.35 -82.15"/><path class="edge" d="M 1094.55 -156.54 Q 1078.46 -105.08 1062.37 -53.62"/><path class="edge" d="M 1116.07 -0.2 Q 1089.2199999999998 -26.909999999999997 1062.37 -53.62"/><path class="edge" d="M 1465.72 141.9 Q 1424.205 121.445 1382.69 100.99"/><path class="edge" d="M 1388.04 9.53 Q 1385.365 55.26 1382.69 100.99"/><path class="edge" d="M 1414.21 180.68 Q 1398.45 140.835 1382.69 100.99"/><path class="edge" d="M 1442.9 34.23 Q 1412.795 67.60999999999999 1382.69 100.99"/><path class="edge" d="M 1483.69 80.53 Q 1433.19 90.75999999999999 1382.69 100.99"/><path class="edge" d="M 1015.37 270.89 Q 1046.985 232.49 1078.6 194.09"/><path class="edge" d="M 1090 310.07 Q 1084.3 252.07999999999998 1078.6 194.09"/><path class="edge" d="M 1052.6 111.81 Q 1065.6 152.95 1078.6 194.09"/><path class="edge" d="M 992.05 160.12 Q 1035.3249999999998 177.10500000000002 1078.6 194.09"/><path class="edge" d="M 1172.16 192.58 Q 1125.38 193.335 1078.6 194.09"/><path class="edge" d="M 1126.27 283.99 Q 1102.435 239.04000000000002 1078.6 194.09"/><path class="edge" d="M 1161.55 251.35 Q 1120.0749999999998 222.72 1078.6 194.09"/><path class="edge" d="M 1105.99 120.71 Q 1092.295 157.4 1078.6 194.09"/><path class="edge" d="M 899.19 2.65 Q 831.455 37.94499999999999 763.72 73.24"/><path class="edge" d="M 899.19 2.65 Q 980.78 -25.485 1062.37 -53.62"/><path class="edge" d="M 1224.5 22.94 Q 1143.435 -15.34 1062.37 -53.62"/><path class="edge" d="M 1224.5 22.94 Q 1303.595 61.965 1382.69 100.99"/><path class="edge" d="M 1235.43 142.09 Q 1309.06 121.53999999999999 1382.69 100.99"/><path class="edge" d="M 1235.43 142.09 Q 1157.0149999999999 168.09 1078.6 194.09"/><path class="edge" d="M 912.08 275.73 Q 995.3399999999999 234.91000000000003 1078.6 194.09"/><path class="edge" d="M 912.08 275.73 Q 834.325 290.005 756.57 304.28"/></g><g id="nodes"><g transform="translate(506.64, 109.09)"><use xlink:href="#knot"/></g><g transform="translate(577.85, -6.26)"><use xlink:href="#knot"/></g><g transform="translate(1322.35, -82.15)"><use xlink:href="#knot"/></g><g transform="translate(763.72, 73.24)"><use xlink:href="#anchor"/><use xlink:href="#fixation"/></g><g transform="translate(1062.37, -53.62)"><use xlink:href="#anchor"/><use xlink:href="#fixation"/></g><g transform="translate(1382.69, 100.99)"><use xlink:href="#anchor"/><use xlink:href="#fixation"/></g><g transform="translate(1078.6, 194.09)"><use xlink:href="#anchor"/><use xlink:href="#fixation"/></g><g transform="translate(756.57, 304.28)"><use xlink:href="#anchor"/><use xlink:href="#fixation"/></g><g transform="translate(753.92, -5.94)"><use xlink:href="#attribute_historized"/></g><g transform="translate(801.96, 1.53)"><use xlink:href="#attribute_historized"/></g><g transform="translate(709.05, 13.7)"><use xlink:href="#attribute"/></g><g transform="translate(737.62, 160.58)"><use xlink:href="#attribute"/></g><g transform="translate(614.77, 144.55)"><use xlink:href="#attribute"/></g><g transform="translate(631.18, 33.81)"><use xlink:href="#attribute"/></g><g transform="translate(803.98, 133.89)"><use xlink:href="#attribute_historized"/></g><g transform="translate(1012.91, -0.24)"><use xlink:href="#attribute"/></g><g transform="translate(1133.63, -119.84)"><use xlink:href="#attribute"/></g><g transform="translate(989.33, -105.15)"><use xlink:href="#attribute_historized"/></g><g transform="translate(971.91, -76.31)"><use xlink:href="#attribute_historized"/></g><g transform="translate(1016.06, -142.18)"><use xlink:href="#attribute_historized"/></g><g transform="translate(1214.21, -90.7)"><use xlink:href="#attribute"/></g><g transform="translate(1094.55, -156.54)"><use xlink:href="#attribute_historized"/></g><g transform="translate(1116.07, -0.2)"><use xlink:href="#attribute_historized"/></g><g transform="translate(1465.72, 141.9)"><use xlink:href="#attribute_historized"/></g><g transform="translate(1388.04, 9.53)"><use xlink:href="#attribute_historized"/></g><g transform="translate(1414.21, 180.68)"><use xlink:href="#attribute"/></g><g transform="translate(1442.9, 34.23)"><use xlink:href="#attribute_historized"/></g><g transform="translate(1483.69, 80.53)"><use xlink:href="#attribute"/></g><g transform="translate(1015.37, 270.89)"><use xlink:href="#attribute"/></g><g transform="translate(1090, 310.07)"><use xlink:href="#attribute_historized"/></g><g transform="translate(1052.6, 111.81)"><use xlink:href="#attribute_historized"/></g><g transform="translate(992.05, 160.12)"><use xlink:href="#attribute_historized"/></g><g transform="translate(1172.16, 192.58)"><use xlink:href="#attribute_historized"/></g><g transform="translate(1126.27, 283.99)"><use xlink:href="#attribute_historized"/></g><g transform="translate(1161.55, 251.35)"><use xlink:href="#attribute_historized"/></g><g transform="translate(1105.99, 120.71)"><use xlink:href="#attribute_historized"/></g><g transform="translate(899.19, 2.65)"><use xlink:href="#tie_historized"/></g><g transform="translate(831.455, 37.945)"><use xlink:href="#bubble"/><use xlink:href="#one"/></g><g transform="translate(980.78, -25.485)"><use xlink:href="#bubble"/><use xlink:href="#many"/></g><g transform="translate(1224.5, 22.94)"><use xlink:href="#tie_historized"/></g><g transform="translate(1143.44, -15.34)"><use xlink:href="#bubble"/><use xlink:href="#one"/></g><g transform="translate(1303.59, 61.965)"><use xlink:href="#bubble"/><use xlink:href="#many"/></g><g transform="translate(1235.43, 142.09)"><use xlink:href="#tie_historized"/></g><g transform="translate(1309.06, 121.54)"><use xlink:href="#bubble"/><use xlink:href="#one"/></g><g transform="translate(1157.02, 168.09)"><use xlink:href="#bubble"/><use xlink:href="#many"/></g><g transform="translate(912.08, 275.73)"><use xlink:href="#tie_historized"/></g><g transform="translate(995.34, 234.91)"><use xlink:href="#bubble"/><use xlink:href="#many"/></g><g transform="translate(834.325, 290.005)"><use xlink:href="#bubble"/><use xlink:href="#one"/></g></g><g id="names" class="label"><text x="490.64" y="114.09" class="end">IsAutoCourseEnrole</text><text x="561.85" y="-1.26" class="end">IsDemoEnrole</text><text x="1338.35" y="-77.15">IsOpen</text><text x="779.72" y="78.24" class="anchor">Course</text><text x="1046.37" y="-48.62" class="anchor end">Stream</text><text x="1398.69" y="105.99" class="anchor">Module</text><text x="1062.6" y="199.09" class="anchor end">Lesson</text><text x="740.57" y="309.28" class="anchor end">Teacher</text><text x="736.92" y="2.06" class="end">Title (r)</text><text x="818.96" y="9.53">IconUrl (r)</text><text x="694.05" y="20.7" class="end">Deleted</text><text x="722.62" y="167.58" class="end">Created</text><text x="599.77" y="151.55" class="end">IsAutoCourseEnrole</text><text x="616.18" y="40.81" class="end">IsDemoEnrole</text><text x="820.98" y="141.89">UpdatedAt (r)</text><text x="997.91" y="6.76" class="end">DeletedAt</text><text x="1148.63" y="-112.84">CreatedAt</text><text x="972.33" y="-97.15" class="end">EndAt (r)</text><text x="954.91" y="-68.31" class="end">StartAt (r)</text><text x="999.06" y="-134.18" class="end">HomeworkDeadlineDays (r)</text><text x="1229.21" y="-83.7">IsOpen</text><text x="1111.55" y="-148.54">Name (r)</text><text x="1133.07" y="7.8">UpdatedAt (r)</text><text x="1482.72" y="149.9">UpdatedAt (r)</text><text x="1405.04" y="17.53">Title (r)</text><text x="1429.21" y="187.68">CreatedAt</text><text x="1459.9" y="42.23">OrderInStream (r)</text><text x="1498.69" y="87.53">DeletedAt</text><text x="1000.37" y="277.89" class="end">DeletedAt</text><text x="1107" y="318.07">OnlineLessonJoinUrl (r)</text><text x="1035.6" y="119.81" class="end">OnlineLessonRecordingUrl (r)</text><text x="975.05" y="168.12" class="end">Title (r)</text><text x="1189.16" y="200.58">EndAt (r)</text><text x="1143.27" y="291.99">HomeWorkUrl (r)</text><text x="1178.55" y="259.35">Description (r)</text><text x="1122.99" y="128.71">StartAt (r)</text><text x="841.455" y="43.945" class="role">learned</text><text x="990.78" y="-19.485" class="role">on</text><text x="1153.44" y="-9.34" class="role">consists</text><text x="1313.59" y="67.965" class="role">of</text><text x="1319.06" y="127.54" class="role">consist</text><text x="1167.02" y="174.09" class="role">of</text><text x="1005.34" y="240.91" class="role">tought</text><text x="844.325" y="296.005" class="role">by</text></g></svg>
